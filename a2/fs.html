@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+    <style>
+        * {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        input {
+            padding: 10px;
+            margin: 10px;
+        }
+
+        button {
+            margin: 10px;
+        }
+
+        form {
+            margin: 10px;
+            padding: 10px 20px;
+            border: rgb(93, 1, 180) solid 2px;
+        }
+        h1 {
+            text-decoration: underline;
+            color: blueviolet;
+        }
+        a {
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <center>
+    <div>
+        <img src="Saylani-logo.png" alt="Saylani-logo">
+    </div>
+    <h1>Student Registration Form</h1>
+</center>
+<form action="Thank You.html" style="background-color: blueviolet; color: white;">
+ <h1 style="color: blueviolet;"> <u><b>STUDENT REGISTRATION FORM</b></u> </h1>
+    
+    <link rel="stylesheet" href="Student%20Registration%20Form_files/style.htm">
+
+
+
+
+    
+
+        <fieldset>
+            <br><br><table>
+
+                <tbody><tr>
+                    <td> <label for="firstname"> FIRST NAME </label> </td>
+                    <!-- <td colspan="10"></td> -->
+                    <td><input type="text" id="firstname" name="firstname" placeholder="Enter First Name" size="15" maxlength="30" required=""> (max 30 characters a-z and A-Z)
+                    </td>
+                </tr>
+
+                <tr>
+
+                    <td> <label for="lastname"> LAST NAME</label> </td>
+                    <td><input type="text" name="lastname" id="lastname" size="15" maxlength="30" required="" placeholder="Enter Last Name"> (max 30 characters a-z and A-Z) <br> <br></td>
+                </tr>
+
+                <tr>
+
+                    <td> <label for="DOB">DATE OF BIRTH</label></td>
+                    <td> <input required="" type="date" id="DOB" name="DOB"> <br><br></td>
+                </tr>
+
+                <tr>
+                    <td><label for="ID">EMAIL ID</label></td>
+                    <td><input required="" id="id" placeholder="Enter Email Address" type="email" name="emailid"> <br> <br></td>
+                </tr>
+
+                <tr>
+                    <td> <label for="mob">MOBILE NO</label></td>
+                    <td><input required="" id="mob" type="number" name="mobileno" placeholder="Enter Mobile Number">(10
+                        digits) <br> <br> </td>
+                </tr>
+
+                <tr>
+                    <td> <label for="gender">GENDER</label> </td>
+                    <td>Male<input id="gender" type="radio" name="gender" value="male">
+                        Female<input id="gender" type="radio" name="gender" value="female">
+                        Others <input type="radio" name="gender" id="gender" value="others"> <br> <br></td>
+                </tr>
+
+                <tr>
+                    <td> <label for="add">ADDRESS</label></td>
+                    <td><textarea required="" name="address" id="add" cols="35" rows="4"></textarea> <br> <br> </td>
+                </tr>
+
+                <tr>
+                    <td> <label for="city">CITY</label> </td>
+                    <td> <select name="city" id="city">
+                        <option value="Karachi" selected="selected">Karachi</option>
+                        <option value="Lahore">Lahore</option>
+                        <option value="Islamabad">Islamabad</option>
+                        <option value="Peshawar">Peshawar</option>
+                        <option value="Quetta">Quetta</option>
+                        <option value="Gujrawala">Gujrawala</option>
+                        <option value="RawalPindi">RawalPindi</option>
+                    </select> <br> <br></td>
+                </tr>
+
+                <tr>
+                    <td> <label for="code">PIN CODE</label></td>
+                    <td><input required="" id="code" type="number" name="pincode" placeholder="Enter Pin Code">(6 digits) <br> <br>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td> <label for="state">STATE</label></td>
+                    <td><input required="" id="state" type="text" name="state" placeholder="Enter State" maxlength="30" size="15">
+                        (max 30 characters a-z and A-Z) <br><br></td>
+                </tr>
+
+                <tr>
+                    <td> <label for="country">COUNTRY</label> </td>
+                    <td><input required="" id="country" type="text" name="country" placeholder="Enter Country" maxlength="30" size="15"><br><br> </td>
+                </tr>
+
+                <tr>
+                    <td> <label for="hobbies">HOBBIES</label> </td>
+                    <td>Drawing<input id="hobbies" type="checkbox" name="hobbies" value="drawing">
+                        Singing<input id="hobbies" type="checkbox" name="hobbies" value="singing">
+                        Dancing<input id="hobbies" type="checkbox" name="hobbies" value="dancing">
+                        Sketching<input id="hobbies" type="checkbox" name="hobbies" value="sketching"> <br>
+                        Other<input id="hobbies" type="checkbox" name="hobbies" value="other">
+                        <input type="text" name="hobbies" maxlength="15" size="8"> <br> <br>
+                </td></tr>
+
+                <tr>
+                    <td><label for="qualification"> QUALIFICATION</label></td>
+                </tr>
+                <tr><td>S.No.</td>
+                <td>Examination</td>
+                <td>Board</td>
+                <td>Percentage</td>
+                <td>Year of Passing</td> 
+                </tr>
+
+                <tr>
+                    <td>1</td>
+                    <td> <label for="classX"></label> Class X</td>
+                    <td> <input type="text" name="qualification" id="classX"></td>
+                    <td><input type="text" name="qualification" id="classX"></td>
+                    <td><input type="text" name="qualification" id="classX"></td>
+
+                </tr>
+
+                <tr>
+                    <td>2</td>
+                    <td> <label for="calssXII"></label> Class XII</td>
+                    <td> <input type="text" name="qualification" id="classXII"></td>
+                    <td><input type="text" name="qualification" id="classXII"></td>
+                    <td><input type="text" name="qualification" id="classXII"></td>
+                </tr>
+
+                <tr>
+                    <td>3</td>
+                    <td> <label for="graduation"></label> Graduation</td>
+                    <td> <input type="text" name="qualification" id="graduation"></td>
+                    <td><input type="text" name="qualification" id="graduation"></td>
+                    <td><input type="text" name="qualification" id="graduation"></td>
+                </tr>
+
+                <tr>
+                    <td>4</td>
+                    <td> <label for="master"></label> Graduation</td>
+                    <td> <input type="text" name="qualification" id="master"></td>
+                    <td><input type="text" name="qualification" id="master"></td>
+                    <td><input type="text" name="qualification" id="master"></td>
+                </tr>
+
+                <tr>
+                    <td><label for="course">COURSES APPLIED FOR:</label></td> 
+                    <td>BCA<input type="radio" name="course" value="BCA" id="course">
+                        B.Com<input type="radio" name="course" value="B.Com" id="course">
+                        B.Sc<input type="radio" name="course" value="B.Sc" id="course">
+                        B.A<input type="radio" name="course" value="B.A" id="course"> </td>
+                </tr>
+
+            </tbody></table>
+            <center> <a href="https://onlie-web-and-mobile.web.app/"> <input type="submit" value="Submit"> </a> <input type="reset" value="Reset"></center>
+        </fieldset>
+
+    </form>
+
+
+
+</body></html>
