@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+    <style>
+        * {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        input {
+            padding: 10px;
+            margin: 10px;
+        }
+
+        button {
+            margin: 10px;
+        }
+
+        form {
+            margin: 10px;
+            padding: 10px 20px;
+            border: rgb(93, 1, 180) solid 2px;
+        }
+        h1 {
+            text-decoration: underline;
+            color: #fc7006;
+        }
+        a {
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <center>
+    <div>
+        <img src="ready-2-fry.png" alt="ready-2-fry">
+    </div>
+    <h1>Customer Registration Form</h1>
+</center>
+<form action="Thank You.html" style="background-color: #fc7006; color: white;">
+ <h1 style="color: #fc7006;"> <u><b>Customer REGISTRATION FORM</b></u> </h1>
+    
+    <link rel="stylesheet" href="Student%20Registration%20Form_files/style.htm">
+
+
+
+
+    
+
+        <fieldset>
+            <br><br><table>
+
+                <tbody><tr>
+                    <td> <label for="firstname"> FIRST NAME </label> </td>
+                    <!-- <td colspan="10"></td> -->
+                    <td><input type="text" id="firstname" name="firstname" placeholder="Enter First Name" size="15" maxlength="30" required=""> (max 30 characters a-z and A-Z)
+                    </td>
+                </tr>
+
+                <tr>
+
+                    <td> <label for="lastname"> LAST NAME</label> </td>
+                    <td><input type="text" name="lastname" id="lastname" size="15" maxlength="30" required="" placeholder="Enter Last Name"> (max 30 characters a-z and A-Z) <br> <br></td>
+                </tr>
+
+                <tr>
+
+                    <td> <label for="DOB">DATE OF BIRTH</label></td>
+                    <td> <input required="" type="date" id="DOB" name="DOB"> <br><br></td>
+                </tr>
+
+                <tr>
+                    <td><label for="ID">EMAIL ID</label></td>
+                    <td><input required="" id="id" placeholder="Enter Email Address" type="email" name="emailid"> <br> <br></td>
+                </tr>
+
+                <tr>
+                    <td> <label for="mob">MOBILE NO</label></td>
+                    <td><input required="" id="mob" type="number" name="mobileno" placeholder="Enter Mobile Number">(10
+                        digits) <br> <br> </td>
+                </tr>
+
+                <tr>
+                    <td> <label for="gender">GENDER</label> </td>
+                    <td>Male<input id="gender" type="radio" name="gender" value="male">
+                        Female<input id="gender" type="radio" name="gender" value="female">
+                        Others <input type="radio" name="gender" id="gender" value="others"> <br> <br></td>
+                </tr>
+
+                <tr>
+                    <td> <label for="add">ADDRESS</label></td>
+                    <td><textarea required="" name="address" id="add" cols="35" rows="4"></textarea> <br> <br> </td>
+                </tr>
+
+                <tr>
+                    <td> <label for="city">CITY</label> </td>
+                    <td> <select name="city" id="city">
+                        <option value="Karachi" selected="selected">Karachi</option>
+                        <option value="Lahore">Lahore</option>
+                        <option value="Islamabad">Islamabad</option>
+                        <option value="Peshawar">Peshawar</option>
+                        <option value="Quetta">Quetta</option>
+                        <option value="Gujrawala">Gujrawala</option>
+                        <option value="RawalPindi">RawalPindi</option>
+                    </select> <br> <br></td>
+                </tr>
+
+               
+            </tbody></table>
+            <center> <a href="Thank You.html"> <input type="submit" value="Submit"> </a> <input type="reset" value="Reset"></center>
+        </fieldset>
+
+    </form>
+
+
+
+</body></html>

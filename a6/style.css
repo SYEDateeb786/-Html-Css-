@@ -1,0 +1,60 @@
+/* body {
+    background-color: black;
+} */
+.img{
+    margin-top: 2em;
+    color: white;
+    width: 10%;
+    text-align: center;
+}
+.headl{
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 4em;
+    text-align: center;
+    padding-top: 1em;
+}
+.time{
+    text-align: center;
+    margin-top: 3em;
+    
+    
+
+}
+.timec{
+
+
+    color: white;
+    display: inline;
+   padding: 1em;
+    
+    text-align: center;
+    font-size: 4em;
+   font-family: Arial, Helvetica, sans-serif;
+
+}
+.time2{
+
+
+    color: white;
+    display: inline;
+    text-align: center;
+}
+.button{
+    margin-top: 1em;
+    text-align: center;
+   
+}
+.button1{
+    margin-right: 4em;
+}
+.button2{
+    margin-left: 4em;
+    
+}
+.msec{
+    
+    color: white;
+ 
+
+}

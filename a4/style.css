@@ -1,0 +1,100 @@
+
+/* nav bar  */
+.logonav{
+    width: 5em;
+    position: relative;
+    left: 6em;
+
+}
+@font-face { 
+    font-family: 'sdance'; 
+    src: url(text/Vegan\ Style\ Personal\ Use.ttf);} 
+.text{
+    color: rgb(37, 37, 37) !important;
+    font-family: sans-serif;
+    
+
+}
+.margenR{
+    margin-right: 1em;}
+.btncol{
+    border:3px solid rgb(255, 94, 0) !important;
+    color: black;
+}   
+.btncol:hover{
+
+    background-color:rgb(255, 94, 0);
+    color: black;
+} 
+/* nav bar end  */
+/* foer corcle */
+.calls,p{
+    color: black;
+    font-weight: bold;
+
+}
+/* :end  */
+
+/* fozn item  */
+.flist{
+    /* margin-left: 3em;
+    width: 442px;
+    height: 442px;
+*/
+margin-left: 25em;
+margin-right: 25em;
+
+
+} 
+/* for h1 and p tag  */
+.h1a,.www{
+    text-align: center;
+}
+/* for p tag  */
+.www{
+    margin-bottom: 2em;
+    color: rgb(51, 51, 51);
+
+}
+/* for h1 tag  */
+.h1a{
+    margin-top: 3em;
+}
+
+/* for how it word  */
+.aaa{
+    display: inline-block;
+    margin: 14px;
+
+}
+p,h1{
+    text-align: center;
+}
+/* for how it worek image  */
+.imgho{
+    margin-left: 9em;
+}
+/* for cotact fb and what app and call btn */
+
+.imgbtn{
+    margin: 4em;
+}
+/* for contant  */
+.h4a{
+    text-align: center;
+    background-color: #fc7006;
+    border: 2px solid white;
+    margin-left: 24em;
+    margin-right: 24em;
+    margin-top: 1em;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+
+}
+.h8a{ 
+    text-align: center;
+    font-size: 12px;
+    font-family: 'Courier New', Courier, monospace;
+
+}
