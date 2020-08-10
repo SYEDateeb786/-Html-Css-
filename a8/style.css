@@ -1,22 +1,49 @@
-.heading{
+.heading {
     text-align: center;
     font-size: 30px;
-    
 }
-.optionElement:hover{
-     background-color: lightgreen;
+
+.optionElement:hover {
+    background-color: rgb(144, 223, 255);
+    border-radius: 10em;
 }
-button{
-    background-color: green !important;
+
+button {
+    background-color: rgb(0, 183, 255) !important;
     border-color: inherit !important;
     float: right;
     clear: both;
 }
-.active{
-    background-color: lightgreen;
+
+.active {
+    background-color: rgb(57, 199, 255);
+    border-radius: 10em;
 }
-.score{
+
+.score {
     display: block !important;
     text-align: center;
     margin: 0px auto 0px auto !important;
+}
+
+.p-3 {
+    font-size: 6em !important;
+    background-color: rgb(0, 183, 255) !important;
+    color: white !important;
+    border-radius: 10em !important;
+}
+
+.p-4 {
+    font-weight: bold !important;
+    color: rgb(0, 183, 255) !important;
+    text-align: center;
+}
+
+p,
+h5 {
+    text-align: center;
+}
+
+h1 {
+    font-size: 7em !important;
 }
